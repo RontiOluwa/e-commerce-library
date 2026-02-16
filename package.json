@@ -22,7 +22,7 @@
   "author": "Olaoluwa Joshua Ojedapo",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/RontiOluwa/e-commerce-library.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -39,7 +39,11 @@
   },
   "types": "./src/index.d.ts",
   "dependencies": {
+    "@elastic/elasticsearch": "^9.3.1",
+    "cloudinary": "^2.9.0",
     "express": "^5.2.1",
+    "http-status-codes": "^2.3.0",
+    "mongoose": "^9.2.1",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
