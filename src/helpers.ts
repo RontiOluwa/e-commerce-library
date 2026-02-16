@@ -5,7 +5,8 @@ export function firstLetterUppercase(str: string): string {
         .map(
             (value: string) =>
                 `${value.charAt(0).toUpperCase()}${value.slice(1).toLowerCase()}`
-        ).join(' ');
+        ).
+        join(' ');
 }
 
 export function lowerCase(str: string): string {
