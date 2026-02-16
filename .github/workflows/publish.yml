@@ -20,8 +20,8 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: |
-          echo @RontiOluwa:https://npm.pkg.github.com/ > build/.npmrc
-          echo '//npm.pkg.github.com/:_authToken=${JOBBER_NPM_TOKEN}' >> build/.npmrc
+          echo @RontiOluwa:https://npm.pkg.github.com/ > .npmrc
+          echo '//npm.pkg.github.com/:_authToken=${JOBBER_NPM_TOKEN}' >> .npmrc
         # - run: npm publish --provenance --access public # this makes the package public
         working-directory: ./build
         env:
